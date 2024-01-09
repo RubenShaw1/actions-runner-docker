@@ -20,4 +20,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: rubensh/discordbot:latest, rubensh/discordbot:${{ github.run_number }}
+        tags: rubensh/actions-runner:latest, rubensh/actions-runner:${{ github.run_number }}
