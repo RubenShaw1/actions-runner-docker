@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-
+ARG DEBIAN_FRONTEND=noninteractive
 ARG RUNNER_VERSION="2.311.0"
 
 RUN apt update -y && apt upgrade -y && useradd -m docker
