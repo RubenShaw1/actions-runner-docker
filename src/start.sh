@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 REPO=$REPO
 ACCESS_TOKEN=$TOKEN
 #Make sure Docker enviroment variables are set.
