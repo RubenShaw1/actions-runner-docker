@@ -2,6 +2,8 @@ name: Docker upload
 
 on:
   push:
+    paths:
+     - "src/**"
     branches: [ "main" ]
 
 jobs:
